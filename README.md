@@ -24,14 +24,22 @@ This project develops a Gaussian Process Regression (GPR) model to:
 
 📁 Project Structure
 .
+
 ├── main.ipynb               # Main notebook integrating all modules
+
 ├── gp_model.py              # Gaussian Process + RBF Kernel implementation
+
 ├── data_handler.py          # CSV loading, preprocessing, scaling
+
 ├── metrics.py               # RMSE, MAE, NLL, error list (comprehension)
+
 ├── visualization.py         # Plotting functions
+
 ├── test_gp_model.py         # Pytest unit tests for kernel + GP
+
 ├── initialDataForGPR100N600Sample.csv   # Dataset
-└── README.md                # This file
+
+├── README.md                # This file
 
 🧠 Key Features Implemented
 

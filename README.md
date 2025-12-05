@@ -1,4 +1,4 @@
-Data-Driven Modeling and Control of a Pneumatic Soft Actuator Using Gaussian Process Regression
+Data-Driven Modeling of a Pneumatic Soft Actuator Using Gaussian Process Regression
 
 Author: Mostafa Mo. Massoud
 

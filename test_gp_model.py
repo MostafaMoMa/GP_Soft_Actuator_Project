@@ -25,11 +25,11 @@ def test_negative_log_likelihood_finite():
 
     # Fit should result in finite log marginal likelihood
     gp.fit(X, y)
-    # __file__ is a string containing the path of the current Python file that is being executed.
     assert np.isfinite(gp.log_marginal_likelihood_)
 
 
 if __name__ == "__main__":
     import pytest
-
+    # __file__ is a string containing the path of the current Python file that is being executed.
     pytest.main(["-v", __file__])
+
